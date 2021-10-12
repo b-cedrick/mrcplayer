@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="mrcplayer.MainWindow"
+        Width="600" Height="450"
+        Padding="20, 10"
+        Title="mrcplayer">
+
+    <StackPanel Orientation="Vertical">
+        <Button         
+            Content="Close Window"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Padding="10.5"
+            Margin="20" Name="scan_mp3" Click="Scan_mp3_Click">Scan Mp3</Button>
+      
+        <Button x:Name="CloseWindowButton"
+            Content="Close Window"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Padding="10.5"/>
+
+        <!-- <Grid RowDefinitions="Auto,50" ColumnDefinitions="Auto,150">
+            <TextBlock Name="NameLabel1" Grid.Row="0" Grid.Column="0" Background="Aquamarine">What is your name?</TextBlock>
+            <TextBlock Name="NameLabel2" Grid.Row="1" Grid.Column="2" Background="Beige">What is your name?</TextBlock>
+        </Grid> -->
+    </StackPanel>
+    
+</Window>
